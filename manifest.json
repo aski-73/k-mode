@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Kioskmode for Firefox",
+  "version": "0.1",
+
+  "description": "Another Kioskmode Addon for Firefox Quantum",
+
+  "applications": {
+    "gecko": {
+      "id": "kmode@aveyon.net"
+    }
+  },
+
+  "icons": {
+    "48": "icons/icon-96.png"
+  },
+
+  "background":{
+    "scripts": ["kmode.js"]
+  }
+}
